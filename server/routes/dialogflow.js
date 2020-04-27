@@ -8,7 +8,7 @@ const projectId = config.googleProjectID
 const sessionId = config.dialogFlowSessionID
 const languageCode = config.dialogFlowSessionLanguageCode
 
-const sessionClient = new dialogflow.SessionsClient({keyFilename: path.join(__dirname, "../../test-chat-bot-app-275514-deab67c13792.json")});
+const sessionClient = new dialogflow.SessionsClient({keyFilename: path.join(__dirname, "../../test-chat-bot-app-275514-7146286b9011.json")});
 const sessionPath = sessionClient.sessionPath(projectId, sessionId);
 
 //text query routes
