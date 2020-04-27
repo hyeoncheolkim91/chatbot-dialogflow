@@ -12,3 +12,6 @@ yarn-error.log*
 
 dev.js
 ./server/config/dev.js
+
+json
+test-chat-bot-app-275514-7146286b9011.json
