@@ -1,12 +1,14 @@
-const express = require('express');
-const app = express();
-const config = require("./server/config/keys");
+const express = require('express'),
+      app = express(),
+      config = require("./server/config/keys");
+      cors = require('cors')
 
 app.use(express.urlencoded({
   extended: true
 }));
 app.use(express.json());
 app.use(express.static("public"));
+app.use(cors());
 
 
 app.use('/api/dialogflow', require('./server/routes/dialogflow'));
