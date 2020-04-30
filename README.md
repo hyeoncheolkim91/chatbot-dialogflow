@@ -1,2 +1,2 @@
 # chatbot-MERN
-chatbot applicatoin with MERN stack
+chatbot applicatoin with dialogflow api
